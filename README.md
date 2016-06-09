@@ -13,12 +13,12 @@ The following technologies are being used:
 
 * [React](https://github.com/facebook/react)
 * [React Router](https://github.com/rackt/react-router)
-* [Babel](http://babeljs.io) for ES6 and ES7 magic
-* [Webpack](http://webpack.github.io) for bundling
+* [Babel](http://babeljs.io)
+* [Webpack](http://webpack.github.io)
 * [Webpack Dev Middleware](http://webpack.github.io/docs/webpack-dev-middleware.html)
 * [Webpack Hot Middleware](https://github.com/glenjamin/webpack-hot-middleware)
-* [Redux](https://github.com/rackt/redux)'s futuristic [Flux](https://facebook.github.io/react/blog/2014/05/06/flux.html) implementation
-* [Redux Dev Tools](https://github.com/gaearon/redux-devtools) for next generation DX (developer experience). Watch [Dan Abramov's talk](https://www.youtube.com/watch?v=xsSnOQynTHs).
+* [Redux](https://github.com/rackt/redux)
+* [Redux Dev Tools](https://github.com/gaearon/redux-devtools)
 
 ## Installation
 
@@ -35,6 +35,5 @@ npm run dev
 ## Building and Running Production Server
 
 ```bash
-npm run build
-npm run start
+...
 ```
