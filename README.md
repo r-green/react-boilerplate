@@ -29,7 +29,7 @@ npm install
 ## Running Dev Server
 
 ```bash
-npm run dev
+npm start
 ```
 
 ## Building and Running Production Server

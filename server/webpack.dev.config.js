@@ -1,4 +1,5 @@
 import path from 'path';
+import webpack from 'webpack';
 
 module.exports = {
     entry: [
@@ -13,6 +14,7 @@ module.exports = {
     },
     devServer: {
         inline: true,
+        hot: true,
         port: 3000,
     },
     module: {
@@ -23,5 +25,8 @@ module.exports = {
                 loader: 'babel',
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ]
 }
