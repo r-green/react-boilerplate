@@ -2,14 +2,15 @@
   "name": "webpack-boilerplate",
   "version": "0.0.1",
   "description": "A basic starter kit for React applications",
-  "main": "index.js",
+  "main": "./server/devServer.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "babel-node ./server/devServer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-preset-stage-2": "^6.5.0",
+    "express": "^4.13.4",
     "lodash": "^4.13.1",
     "node-uuid": "^1.4.7",
     "react": "^15.1.0",
@@ -19,8 +20,11 @@
     "redux": "^3.5.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.9.0",
     "babel-polyfill": "^6.9.1",
     "redux-devtools": "^3.3.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
   }
 }
