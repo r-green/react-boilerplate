@@ -5,21 +5,15 @@ const Footer = () => (
     <p>
         Show:
         {' '}
-        <FilterLink
-            filter='all'
-        >
+        <FilterLink filter='all'>
             All
         </FilterLink>
         {' '}
-        <FilterLink
-            filter='active'
-        >
+        <FilterLink filter='active'>
             Active
         </FilterLink>
         {' '}
-        <FilterLink
-            filter='completed'
-        >
+        <FilterLink filter='completed'>
             Completed
         </FilterLink>
     </p>
